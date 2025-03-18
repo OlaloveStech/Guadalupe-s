@@ -5,16 +5,27 @@ document.addEventListener('DOMContentLoaded', () => {
     const cancel_hamburger = document.querySelector(".cancel-hamburger")
     const heroSection = document.querySelector(".hero");
     const navbar = document.querySelector(".navbar");
+    const navItem = document.querySelectorAll(".nav-item");
 
 
+
+
+console.log(navItem)
     hamburger.addEventListener('click', () => {
         navMenu.classList.add('scale-up-ver-center');
         navMenu.classList.add('active');
     });
 
-    cancel_hamburger.addEventListener('click', () =>{
-        console.log('clicked nah')
+    cancel_hamburger.addEventListener('click', () => {
         navMenu.classList.remove('active');
+    })
+    navItem.forEach(item => {
+        item.addEventListener('click', (event) => {
+            if(event.target) {
+                navMenu.classList.remove('active');
+
+            }
+        })
     })
 
     window.addEventListener('scroll', () => {

@@ -1,380 +1,317 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Guadalupe's Tex-Mex Restaurant</title>
-    <link rel="shortcut icon" href="Images/Logo copy.ico" type="image/x-icon" />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
 
-    <link rel="stylesheet" href="stylesheet.css" />
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Guadalupe's Tex-Mex Restaurant</title>
+  <link rel="shortcut icon" href="Images/Logo copy.ico" type="image/x-icon" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
-  <body>
-    <!-- navigation bar -->
+  <link rel="stylesheet" href="stylesheet.css" />
+</head>
 
-    <header>
-      <nav class="navbar">
-        <a href="#" class="nav-logo">
-          <img
-            src="Images/Logo copy.png"
-            alt="Logo"
-            height="60px"
-            width="60px"
-            class="nav-logo"
-            style="padding: 15px; margin-right: 30px"
-          />
-        </a>
+<body>
+  <!-- navigation bar -->
 
-        <div class="hamburger">
-          <i class="fa-solid fa-bars-staggered"></i>
-        </div>
+  <header>
+    <nav class="navbar">
+      <a href="#" class="nav-logo">
+        <img src="Images/Logo copy.png" alt="Logo" height="60px" width="60px" class="nav-logo"
+          style="padding: 15px; margin-right: 30px" />
+      </a>
 
-        <div class="nav-menu-container">
-          <ul class="nav-menu">
-            <li class="nav-item">
-              <a href="#" class="nav-link">Home</a>
-            </li>
-            <li class="nav-item">
-              <a href="#menu" class="nav-link">Menu</a>
-            </li>
-            <li class="nav-item">
-              <a href="#testmonial" class="nav-link">Reviews</a>
-            </li>
-            <li class="nav-item">
-              <a href="#contact" class="nav-link">Contact us</a>
-            </li>
-            <li class="nav-item">
-              <a href="#about-us" class="nav-link">About us</a>
-            </li>
-            <div class="cancel-hamburger">
-              <i class="fa-solid fa-xmark"></i>
-            </div>
-          </ul>
-        </div>
-        <button class="btn nav-button">
-          <a href="#" class="nav-link">Order Now</a>
-        </button>
-      </nav>
-    </header>
-
-    <!-- hero -->
-
-    <section class="hero animate__animated animate__fadeIn">
-      <div class="hero-img">
-        <div class="hero-content">
-          <h1 class="welcome animate__animated animate__rollIn">
-            Welcome to Guadalupe's Mexican Restaurant
-          </h1>
-          <p class="hero-text">
-            Your go-to spot for authentic Tex-Mex flavors!
-          </p>
-          <a href="#" class="btn">Book a Table</a>
-          <a href="#" class="btn order-online">Order Online</a>
-        </div>
+      <div class="hamburger">
+        <i class="fa-solid fa-bars-staggered"></i>
       </div>
-    </section>
 
-    <!-- Opening hours -->
-
-    <section class="opening-hours" 
-    data-aos="fade-up" 
-    data-aos-duration="3000"
-    data-aos-offset="50"
-    >
-      <div class="container">
-        <h2 class="section-title">Guadalupes Resturant</h2>
-        <div class="hours-wrapper">
-          <div class="highlight">
-            
+      <div class="nav-menu-container">
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="#" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#menu" class="nav-link">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a href="#testmonial" class="nav-link">Reviews</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact us</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about-us" class="nav-link">About us</a>
+          </li>
+          <div class="cancel-hamburger">
+            <i class="fa-solid fa-xmark"></i>
           </div>
-          <div class="hour-card">
-            <h3>Opening Hours</h3>
-            <p>Monday: CLOSED</p>
-            <p>Tuesday: 11:00 AM - 8:30PM</p>
-            <p>Wednesday:  11:00 AM - 8:30PM</p>
-            <p>Thursday:  11:00 AM - 8:30PM</p>
-            <p>Friday:  11:00 AM - 9:00PM</p>
-            <p>Saturday: 11:00 AM - 9:00PM</p>
-            <p>Sunday: CLOSED</p>
-          </div>
-          <div class="hour-card location">
-            <h3>Address</h3>
-            <p>101 E Pacific Ave, Gladewater, TX, United States, Texas</p>
-
-            <h3>Phone</h3>
-            <p>+1 903-845-2318</p>
-            <a href="https://www.google.com/maps?q=101+E+Pacific+Ave,+Gladewater,+TX,+United+States,+Texas" target="_blank" class="btn">View on Google Maps</a>
-          </div>
-        </div>
-        <div class="cta">
-          <p>
-            Reserve your spot for a flavor Fiesta
-          </p>
-          <a href="#" class="reserve-btn">Book now</a>
-        </div>
+        </ul>
       </div>
-    </section>
+      <button class="btn nav-button">
+        <a href="#" class="nav-link">Order Now</a>
+      </button>
+    </nav>
+  </header>
 
-    <!-- Menu section -->
+  <!-- hero -->
 
-    <section class="menu-section" id="menu">
-      <div class="menu-header">
-        <h2>Our Menu</h2>
-        <p style="padding: 30px;">Explore our delicious offerings</p>
-      </div>
-      <div class="menu-grid" data-aos="fade-up" data-aos-duration="3000">
-        <div class="menu-item">
-          <img src="images/Fajitas.jpg" alt="Fajitas" />
-          <div class="menu-info">
-            <h3>Guadalupe's Fajitas</h3>
-            <p>Crafted Fresh with the Finest Ingredients.</p>
-          </div>
-        </div>
-        <div class="menu-item">
-          <img src="images/Trio de guadalupe.jpg" alt="VIP course" />
-          <div class="menu-info">
-            <h3>Lupe's VIP Full Courses</h3>
-            <p>A premium Tex-Mex feast—Lupe's VIP Full Courses offer the best of Guadalupe's, served in style.</p>
-          </div>
-        </div>
-        <div class="menu-item">
-          <img src="images/El cancun.jpg" alt="el-cancun" />
-          <div class="menu-info">
-            <h3>El Cancun Dinner</h3>
-            <p>Fresh seafood meets Tex-Mex flair in our El Cancun Dinner..</p>
-          </div>
-        </div>
-        <div class="menu-item">
-          <img src="images/Margaritas.jpg" alt="Margarita" />
-          <div class="menu-info">
-            <h3> Wine Margaritas</h3>
-            <p>A refreshing drink to complete your meal.</p>
-          </div>
-        </div>
-      </div>
-      <div class="learn-more-btn"><a href="#" class="btn">View Menu</a></div>
-
-    </section>
-    <!-- Reviews -->
-
-    <!-- REVIEWS Section -->
-    <section id="testmonial">
-      <h2 class="section-title">Reviews</h2>
-      <div class="testmonial-container">
-        <div class="testmonial-card">
-          <h3 class="testmonial-title">Teresa Seastedt</h3>
-          <h6 class="testmonial-subtitle">Google review</h6>
-          <div class="testmonial-body">
-            <p>
-                This place was great! We had just been at an estate sale all day and we're starving. 
-                The food and service were on point! Great prices too."
-            </p>
-          </div>
-        </div>
-
-        <div class="testmonial-card">
-          <h3 class="testmonial-title">Bradley S.</h3>
-          <h6 class="testmonial-subtitle">Yelp.com</h6>
-          <div class="testmonial-body">
-            <p>
-              "I enjoy their beef enchilada dinner and I enjoy the fajita beef dinner. 
-              The cheese and chili queso is very good. 
-              Also, the chicken enchiladas are very good."
-            </p>
-          </div>
-        </div>
-
-        <div class="testmonial-card">
-          <h3 class="testmonial-title">Kim Tucker</h3>
-          <h6 class="testmonial-subtitle">Google review</h6>
-          <div class="testmonial-body"> 
-            <p>
-              "Everyone is so nice and happy here.
-               It was my first time there and I had the ground beef taco salad. Loved it"
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- gallery -->
-    <section class="gallery">
-      <div class="gallery-grid">
-        <div class="gallery-grid-header-container">
-          <h2 class="section_header">Gallery</h2>
-        </div>
-        <div class="gallery-grid-item">
-          <img
-            data-aos="zoom-in"
-            data-aos-duration="000"
-            src="Images/Fried icecream.jpg"
-            alt="Ice-cream"
-            class="pic"
-          />
-        </div>
-        <div class="gallery-grid-item">
-          <img
-            data-aos="zoom-in"
-            data-aos-duration="1200"
-            src="Images/Guadalupe Taco Salad.jpg"
-            alt="Guadalupe Taco Salad"
-            class="pic"
-          />
-        </div>
-        <div class="gallery-grid-item">
-          <img
-            data-aos="zoom-in"
-            data-aos-duration="1500"
-            src="Images/Fajitas.jpg"
-            alt="Fajitas"
-            class="pic"
-          />
-        </div>
-        <div class="gallery-grid-item">
-          <img
-            data-aos="zoom-in"
-            data-aos-duration="1000"
-            src="Images/El cancun.jpg"
-            alt="El cancun"
-            class="pic"
-          />
-        </div>
-
-        <div class="gallery-grid-item">
-          <img
-            data-aos="zoom-in"
-            data-aos-duration="1000"
-            src="Images/Lunch Custom combo.jpg"
-            alt="Lunch combo"
-            class="pic"
-          />
-        </div>
-        <div class="gallery-grid-item">
-          <img
-            data-aos="zoom-in"
-            data-aos-duration="3000"
-            src="Images/Quesadaillas.jpg"
-            alt="Quesadaillas"
-            class="pic"
-          />
-        </div>
-        <div class="gallery-grid-item">
-          <img
-            data-aos="zoom-in"
-            data-aos-duration="2500"
-            src="Images/Nachos.jpg"
-            alt="Nachos"
-            class="pic"
-          />
-        </div>
-        <div class="gallery-grid-item">
-          <img
-            data-aos="zoom-in"
-            data-aos-duration="3000"
-            src="Images/Torta.jpg"
-            alt="Tortas"
-            class="pic"
-          />
-        </div>
-        <div class="gallery-grid-item">
-          <img
-            data-aos="zoom-in"
-            data-aos-duration="2500"
-            src="Images/Taquitos.jpg"
-            alt="Taquitos"
-            class="pic"
-          />
-        </div>
-        <div class="gallery-grid-item">
-          <img
-            data-aos="zoom-in"
-            data-aos-duration="2000"
-            src="Images/New mexico Puerco.jpg"
-            alt="Puerco"
-            class="pic"
-          />
-        </div>
-      </div>
-    </section>
-
-    <!-- About us -->
-    <section
-      id="about-us"
-      class="section_padding animate__animated animate__slideInUp"
-    >
-      <div class="about-us_container">
-        <div class="about-us_container_img">
-          <img src="./Images/Guadap.png" alt="" />
-        </div>
-        <div class="about-us_container_writeup">
-          <h4 class="section_header">About us</h4>
-          <p>
-            Welcome to <strong>Guadalupe's Mexican Restaurant</strong>, where tradition meets flavor! Established in <strong>1990</strong>, 
-            we’ve been proudly serving the Gladewater community with authentic Tex-Mex cuisine for over three decades. 
-            <br>
-            <br>
-            Our story began with a simple mission: to bring the vibrant tastes of Mexico and Texas to your table, 
-            using fresh ingredients, time-honored recipes, and a whole lot of love.
-            <br>
-            <br>
-            At Guadalupe's, every dish tells a story. From our sizzling fajitas to our mouthwatering enchiladas, 
-            we craft each meal with care and passion. Our secret? A family recipe book passed down through generations, combined with a commitment to quality and hospitality.
-            
-            Located in the heart of Gladewater, Texas, we’re more than just a restaurant—we’re a gathering place for families, friends, and food lovers.
-             Whether you’re joining us for a quick lunch, a festive dinner, or a special celebration,
-              we invite you to experience the warmth and flavor that make Guadalupe's a local favorite.
-            
-            Thank you for being part of our journey. We look forward to serving you and sharing the taste of tradition, one plate at a time.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <!-- Contact Button -->
-
-    <section class="contact-section" id="contact">
-      <div class="contact-content">
-        <h2 class="contact-title">Contact Us</h2>
-        <p class="contact-text">
-            We’d love to hear from you! Whether you have questions, feedback, or just want to say hello, 
-            our team at Guadalupe's Mexican Restaurant is here to help. Feel free to reach out using the information below, 
-            or stop by and visit us in person. We can’t wait to see you!
+  <section class="hero animate__animated animate__fadeIn">
+    <div class="hero-img">
+      <div class="hero-content">
+        <h1 class="welcome animate__animated animate__slideInUp">
+          Welcome to Guadalupe's Mexican Restaurant
+        </h1>
+        <p class="hero-text">
+          Your go-to spot for authentic Tex-Mex flavors!
         </p>
+        <a href="#" class="btn">Book a Table</a>
+        <a href="#" class="btn order-online">Order Online</a>
+      </div>
+    </div>
+  </section>
 
+  <!-- Opening hours -->
 
-        <div class="contact-buttons">
-          <a href="tel:+19038452318" class="btn call-btn">Call Now</a>
-          <a href="#" class="btn message-btn">Send a Message</a>
+  <section class="opening-hours" data-aos="fade-up" data-aos-duration="3000" data-aos-offset="50">
+    <div class="container">
+      <h2 class="section-title">Guadalupes Resturant</h2>
+      <div class="hours-wrapper">
+        <div class="highlight">
+
         </div>
+        <div class="hour-card">
+          <h3>Opening Hours</h3>
+          <p>Monday: CLOSED</p>
+          <p>Tuesday: 11:00 AM - 8:30PM</p>
+          <p>Wednesday: 11:00 AM - 8:30PM</p>
+          <p>Thursday: 11:00 AM - 8:30PM</p>
+          <p>Friday: 11:00 AM - 9:00PM</p>
+          <p>Saturday: 11:00 AM - 9:00PM</p>
+          <p>Sunday: CLOSED</p>
+        </div>
+        <div class="hour-card location">
+          <h3>Address</h3>
+          <p>101 E Pacific Ave, Gladewater, TX, United States, Texas</p>
 
-        <div class="social-icons">
-          <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
-          <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
-          <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
-          <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+          <h3>Phone</h3>
+          <p>+1 903-845-2318</p>
+          <a href="https://www.google.com/maps?q=101+E+Pacific+Ave,+Gladewater,+TX,+United+States,+Texas"
+            target="_blank" class="btn">View on Google Maps</a>
         </div>
       </div>
-    </section>
+      <div class="cta">
+        <p>
+          Reserve your spot for a flavor Fiesta
+        </p>
+        <a href="#" class="reserve-btn">Book now</a>
+      </div>
+    </div>
+  </section>
 
-    <!--  -->
+  <!-- Menu section -->
 
-    <!-- Back to Top Button -->
-    <button id="back-to-top" title="Back to Top">
-      <i class="fas fa-arrow-up"></i>
-    </button>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="javascript.js"></script>
-  </body>
+  <section class="menu-section" id="menu">
+    <div class="menu-header">
+      <h2>Our Menu</h2>
+      <p style="padding: 30px;">Explore our delicious offerings</p>
+    </div>
+    <div class="menu-grid" data-aos="fade-up" data-aos-duration="3000" data-aos-once="true">
+      <div class="menu-item">
+        <img src="images/Fajitas.jpg" alt="Fajitas" />
+        <div class="menu-info">
+          <h3>Guadalupe's Fajitas</h3>
+          <p>Crafted Fresh with the Finest Ingredients.</p>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img src="images/Trio de guadalupe.jpg" alt="VIP course" />
+        <div class="menu-info">
+          <h3>Lupe's VIP Full Courses</h3>
+          <p>A premium Tex-Mex feast—Lupe's VIP Full Courses offer the best of Guadalupe's, served in style.</p>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img src="images/El cancun.jpg" alt="el-cancun" />
+        <div class="menu-info">
+          <h3>El Cancun Dinner</h3>
+          <p>Fresh seafood meets Tex-Mex flair in our El Cancun Dinner..</p>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img src="images/Margaritas.jpg" alt="Margarita" />
+        <div class="menu-info">
+          <h3> Wine Margaritas</h3>
+          <p>A refreshing drink to complete your meal.</p>
+        </div>
+      </div>
+    </div>
+    <div class="learn-more-btn"><a href="#" class="btn">View Menu</a></div>
+
+  </section>
+  <!-- Reviews -->
+
+  <!-- REVIEWS Section -->
+  <section id="testmonial">
+    <h2 class="section-title">Reviews</h2>
+    <div class="testmonial-container">
+      <div class="testmonial-card">
+        <h3 class="testmonial-title">Teresa Seastedt</h3>
+        <h6 class="testmonial-subtitle">Google review</h6>
+        <div class="testmonial-body">
+          <p>
+            This place was great! We had just been at an estate sale all day and we're starving.
+            The food and service were on point! Great prices too."
+          </p>
+        </div>
+      </div>
+
+      <div class="testmonial-card">
+        <h3 class="testmonial-title">Bradley S.</h3>
+        <h6 class="testmonial-subtitle">Yelp.com</h6>
+        <div class="testmonial-body">
+          <p>
+            "I enjoy their beef enchilada dinner and I enjoy the fajita beef dinner.
+            The cheese and chili queso is very good.
+            Also, the chicken enchiladas are very good."
+          </p>
+        </div>
+      </div>
+
+      <div class="testmonial-card">
+        <h3 class="testmonial-title">Kim Tucker</h3>
+        <h6 class="testmonial-subtitle">Google review</h6>
+        <div class="testmonial-body">
+          <p>
+            "Everyone is so nice and happy here.
+            It was my first time there and I had the ground beef taco salad. Loved it"
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- gallery -->
+  <section class="gallery">
+    <div class="gallery-grid">
+      <div class="gallery-grid-header-container">
+        <h2 class="section_header">Gallery</h2>
+      </div>
+      <div class="gallery-grid-item">
+        <img data-aos="zoom-in" data-aos-once="true" data-aos-duration="000" src="Images/Fried icecream.jpg"
+          alt="Ice-cream" class="pic" />
+      </div>
+      <div class="gallery-grid-item">
+        <img data-aos="zoom-in" data-aos-once="true" data-aos-duration="1200" src="Images/Guadalupe Taco Salad.jpg"
+          alt="Guadalupe Taco Salad" class="pic" />
+      </div>
+      <div class="gallery-grid-item">
+        <img data-aos="zoom-in" data-aos-once="true" data-aos-duration="1500" src="Images/Fajitas.jpg" alt="Fajitas"
+          class="pic" />
+      </div>
+      <div class="gallery-grid-item">
+        <img data-aos="zoom-in" data-aos-once="true" data-aos-duration="1000" src="Images/El cancun.jpg" alt="El cancun"
+          class="pic" />
+      </div>
+
+      <div class="gallery-grid-item">
+        <img data-aos="zoom-in" data-aos-once="true" data-aos-duration="1000" src="Images/Lunch Custom combo.jpg"
+          alt="Lunch combo" class="pic" />
+      </div>
+      <div class="gallery-grid-item">
+        <img data-aos="zoom-in" data-aos-once="true" data-aos-duration="3000" src="Images/Quesadaillas.jpg"
+          alt="Quesadaillas" class="pic" />
+      </div>
+      <div class="gallery-grid-item">
+        <img data-aos="zoom-in" data-aos-once="true" data-aos-duration="2500" src="Images/Nachos.jpg" alt="Nachos"
+          class="pic" />
+      </div>
+      <div class="gallery-grid-item">
+        <img data-aos="zoom-in" data-aos-once="true" data-aos-duration="3000" src="Images/Torta.jpg" alt="Tortas"
+          class="pic" />
+      </div>
+      <div class="gallery-grid-item">
+        <img data-aos="zoom-in" data-aos-once="true" data-aos-duration="2500" src="Images/Taquitos.jpg" alt="Taquitos"
+          class="pic" />
+      </div>
+      <div class="gallery-grid-item">
+        <img data-aos="zoom-in" data-aos-once="true" data-aos-duration="2000" src="Images/New mexico Puerco.jpg"
+          alt="Puerco" class="pic" />
+      </div>
+    </div>
+  </section>
+
+  <!-- About us -->
+  <section id="about-us" class="section_padding animate__animated animate__slideInUp">
+    <div class="about-us_container">
+      <div class="about-us_container_img">
+        <img src="./Images/Guadap.png" alt="" />
+      </div>
+      <div class="about-us_container_writeup">
+        <h4 class="section_header">About us</h4>
+        <p>
+          Welcome to <strong>Guadalupe's Mexican Restaurant</strong>, where tradition meets flavor! Established in
+          <strong>1990</strong>,
+          we’ve been proudly serving the Gladewater community with authentic Tex-Mex cuisine for over three decades.
+          <br>
+          <br>
+          Our story began with a simple mission: to bring the vibrant tastes of Mexico and Texas to your table,
+          using fresh ingredients, time-honored recipes, and a whole lot of love.
+          <br>
+          <br>
+          At Guadalupe's, every dish tells a story. From our sizzling fajitas to our mouthwatering enchiladas,
+          we craft each meal with care and passion. Our secret? A family recipe book passed down through generations,
+          combined with a commitment to quality and hospitality.
+
+          Located in the heart of Gladewater, Texas, we’re more than just a restaurant—we’re a gathering place for
+          families, friends, and food lovers.
+          Whether you’re joining us for a quick lunch, a festive dinner, or a special celebration,
+          we invite you to experience the warmth and flavor that make Guadalupe's a local favorite.
+
+          Thank you for being part of our journey. We look forward to serving you and sharing the taste of tradition,
+          one plate at a time.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Button -->
+
+  <section class="contact-section" id="contact">
+    <div class="contact-content">
+      <h2 class="contact-title">Contact Us</h2>
+      <p class="contact-text">
+        We’d love to hear from you! Whether you have questions, feedback, or just want to say hello,
+        our team at Guadalupe's Mexican Restaurant is here to help. Feel free to reach out using the information below,
+        or stop by and visit us in person. We can’t wait to see you!
+      </p>
+
+
+      <div class="contact-buttons">
+        <a href="tel:+19038452318" class="btn call-btn">Call Now</a>
+        <a href="#" class="btn message-btn">Send a Message</a>
+      </div>
+
+      <div class="social-icons">
+        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!--  -->
+
+  <!-- Back to Top Button -->
+  <button id="back-to-top" title="Back to Top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="javascript.js"></script>
+</body>
+
 </html>
