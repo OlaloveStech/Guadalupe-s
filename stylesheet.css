@@ -88,22 +88,6 @@ body {
   color: #333;
 }
 
-@media (max-width: 500px) {
-  .job-popup {
-    width: 90%;
-    padding: 15px;
-  }
-
-  .popup-content h2 {
-    font-size: 1.2rem;
-  }
-
-  .popup-content p {
-    font-size: 0.95rem;
-  }
-}
-
-
 .scale-up-ver-center {
   -webkit-animation: scale-up-ver-center 0.4s
     cubic-bezier(0.39, 0.575, 0.565, 1) both;

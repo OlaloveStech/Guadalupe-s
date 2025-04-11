@@ -17,17 +17,6 @@
 
 <body>
 
-  <div id="job-popup" class="job-popup">
-    <div class="popup-content">
-      <span class="close-btn" onclick="closePopup()">&times;</span>
-      <h2>We're Hiring!</h2>
-      <p>Join our team at Guadalupe's Mexican Restaurant! Apply now for open positions.</p>
-      <a href="https://docs.google.com/forms/u/0/d/1rRMedLSiqPOZoZbcbjnoneEzSRxXTfh4uhKFNKGTcTE/viewform?usp=drivesdk&edit_requested=true" class="apply-btn">View Openings</a>
-    </div>
-  </div>
-  
-
-
   <!-- navigation bar -->
 
   <header>
@@ -305,6 +294,7 @@
       <div class="contact-buttons">
         <a href="tel:+19038452318" class="btn call-btn">Call Now</a>
         <a href="mailto:waremblem123@gmail.com" class="btn message-btn">Send a Message</a>
+        <a href="https://docs.google.com/forms/u/0/d/1rRMedLSiqPOZoZbcbjnoneEzSRxXTfh4uhKFNKGTcTE/viewform?usp=drivesdk&edit_requested=true" class="btn">We're Hiring!</a>
       </div>
 
       <div class="social-icons">
@@ -324,17 +314,7 @@
   </button>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="javascript.js"></script>
-  <script>
-    window.onload = function() {
-      setTimeout(function() {
-        document.getElementById('job-popup').style.display = 'block';
-      }, 2000); // Show after 2 seconds
-    };
   
-    function closePopup() {
-      document.getElementById('job-popup').style.display = 'none';
-    }
-  </script>
   
 </body>
 
